@@ -14,3 +14,4 @@
 @media(max-width:600px){.hero-art img{height:100%}.hero-art .art-label{left:0;right:auto;top:35px}}
 @media(min-width:601px) and (max-width:800px){.top{gap:15px}.brand img{width:130px}.top nav{gap:14px}.top nav a,.cart-btn{white-space:nowrap}}
 @media(max-width:600px){header{position:sticky;top:0;z-index:9}#buscador,#categorias,#catalog{scroll-margin-top:80px}}
+@media(max-width:600px){.hero-grid{display:block;position:relative;min-height:0}.hero-copy{width:65%;padding:26px 0 36px}.hero-copy h1{font-size:clamp(27px,8vw,34px);line-height:1.08;margin:13px 0}.hero-copy>p{font-size:12px;line-height:1.5;margin-bottom:16px}.hero-copy .primary{font-size:11px;gap:12px;padding:13px 12px}.hero-note{display:none}.hero-art{position:absolute;right:-8px;bottom:0;width:39%;height:180px}.hero-art img{height:100%;right:0;bottom:0}.hero-art .orbit{width:140px;height:140px;right:0;bottom:16px}.hero-art .art-label{display:none}.search-section{margin-top:-12px}}
