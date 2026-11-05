@@ -41,3 +41,15 @@
   .product-detail-link:hover::after{color:#084b88;text-decoration:underline}
 }
 @media (prefers-reduced-motion:reduce){.product-image-link img{transition:none}}
+
+/* Alinea los contenidos y botones de las tarjetas de cada fila. */
+.product{display:flex;flex-direction:column;min-width:0}
+.product>.add{margin-top:auto}
+@supports (grid-template-rows:subgrid){
+  .product{display:grid;grid-row:span 5;grid-template-rows:subgrid;row-gap:0}
+  .product>.product-art{grid-row:1}
+  .product>.photo-nav{grid-row:2}
+  .product>h3{grid-row:3;align-self:start}
+  .product>p{grid-row:4;align-self:start;overflow-wrap:anywhere}
+  .product>.add{grid-row:5;align-self:end;margin-top:0}
+}
