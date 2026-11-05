@@ -30,3 +30,14 @@
 
 /* Sugerencias de búsqueda */
 .search-suggest-wrap{position:relative;flex:1;min-width:0}.search-suggest-wrap input{width:100%}.search-suggest-list{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:8;background:#fff;border:1px solid #dce6de;border-radius:5px;box-shadow:0 10px 24px #14231a22;overflow:hidden}.search-suggest-list[hidden]{display:none}.search-suggestion{display:flex!important;width:100%;min-height:44px;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px!important;background:#fff!important;border:0!important;border-radius:0!important;color:#17251c!important;text-align:left;font-size:13px!important;font-weight:600!important;white-space:normal!important}.search-suggestion:hover,.search-suggestion[aria-selected=true]{background:#eff7e6!important}.search-suggestion span{overflow-wrap:anywhere}.search-suggestion small{font-size:10px;color:#657967;font-weight:400;text-align:right}.search-card .quick-search form .search-suggest-wrap{flex:1;min-width:0}.catalog-search-input .search-suggest-wrap{flex:1;min-width:0}
+
+/* Indicación de detalles en las tarjetas de repuestos. */
+.product-detail-link::after{content:'Ver detalles →';display:block;margin-top:5px;color:#1769ae;font-size:11px;font-weight:700;line-height:1.4}
+.product-image-link:focus-visible,.product-detail-link:focus-visible{outline:3px solid #066cf1;outline-offset:3px;border-radius:3px}
+@media (hover:hover) and (pointer:fine){
+  .product-image-link img{transition:transform .2s ease}
+  .product-image-link:hover img{transform:scale(1.04)}
+  .product-image-link:hover{background:#e9f1e7}
+  .product-detail-link:hover::after{color:#084b88;text-decoration:underline}
+}
+@media (prefers-reduced-motion:reduce){.product-image-link img{transition:none}}
