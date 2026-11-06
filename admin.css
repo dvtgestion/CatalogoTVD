@@ -13,3 +13,15 @@
 .fits-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:12px;background:#f6f8f5;border:1px solid #e2e9e4;border-radius:5px}.panel .fits-select-all,.panel .fit-select{display:flex;align-items:center;gap:9px;margin:0;font-size:12px;cursor:pointer}.fits-select-all input,.fit-select input{flex:none;width:18px;height:18px;accent-color:#0874ec}.fits-select-all{flex:1;min-width:140px}.fits-delete-selected{border:0;border-radius:4px;padding:10px 12px;background:#ad342e;color:#fff;font-size:12px;font-weight:700}.fits-delete-selected:disabled{opacity:.45;cursor:default}.fits-selection-count{font-size:11px;color:#52675b}.fit .fit-select{flex:1;min-width:0;line-height:1.5}.fit .fit-select span{overflow-wrap:anywhere}@media(max-width:480px){.fits-toolbar{gap:8px}.fits-select-all{min-width:120px}.fits-delete-selected{padding:10px}.fit{gap:8px}}
 
 .category-field{margin:15px 0;padding:14px;border:1px solid #dfe6e2;border-radius:5px;min-width:0}.category-field legend{font-size:11px;font-weight:700;padding:0 5px}.category-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 12px;margin-top:10px}.panel .category-option{display:flex;align-items:flex-start;gap:8px;margin:0;padding:7px 0;font-size:12px;line-height:1.4;font-weight:500}.category-option input{flex:none;margin:1px 0 0}.category-option span{overflow-wrap:anywhere}@media(max-width:400px){.category-options{grid-template-columns:1fr}}
+
+/* Las casillas deben conservar su tamaño y quedar junto al nombre. */
+.category-field{padding:16px;border-color:#d8e3dc;background:#f8faf8}
+.category-field legend{font-size:13px;color:#24362b}
+.category-field>small{line-height:1.5;color:#526a5b}
+.category-options{gap:8px;margin-top:14px}
+.panel .category-option{align-items:center;min-width:0;min-height:44px;padding:9px 10px;border:1px solid #e1e9e3;border-radius:5px;background:#fff;cursor:pointer}
+.panel .category-option input[type=checkbox]{display:block;width:18px;height:18px;min-width:18px;flex:0 0 18px;margin:0;padding:0;accent-color:#086fee}
+.category-option span{min-width:0;color:#24362b;overflow-wrap:normal}
+.category-option:has(input:checked){border-color:#91b86d;background:#f0f8e8}
+.category-option input:focus-visible{outline:3px solid #086fee;outline-offset:2px}
+@media(max-width:480px){.category-options{grid-template-columns:1fr}}
