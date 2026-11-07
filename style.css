@@ -69,3 +69,6 @@
 .lightbox-close{min-height:44px;min-width:76px;padding:10px 14px;background:#b52e2a;color:#fff;font-size:13px;font-weight:800}
 .lightbox-close:hover{background:#8e201d}
 .lightbox-close:focus-visible{outline:3px solid #086fee;outline-offset:2px}
+
+/* Aviso discreto junto a los vehículos compatibles. */
+.detail-applications>.fit-years-notice{margin:4px 0 10px;padding:4px 0;border:0;background:transparent;color:#687a6d;font-size:11px;line-height:1.4}
