@@ -75,3 +75,6 @@
 
 /* Aviso compacto sobre los años compatibles. */
 .detail-applications>.fit-years-notice{margin:5px 0 10px;padding:6px 9px;border-left:3px solid #e7a39f;border-radius:3px;background:#fff2f1;color:#783b38;font-size:11px;line-height:1.35}
+
+/* Información compacta sobre envíos nacionales. */
+.shipping-wrap{margin-top:20px}.shipping-banner{display:flex;align-items:center;gap:13px;padding:12px 16px;border:1px solid #dfeadb;border-radius:6px;background:#f5f9f1;color:#243a2c}.shipping-banner svg,.shipping-footer svg{display:block;flex:none;width:42px;height:34px}.shipping-banner strong,.shipping-banner span{display:block}.shipping-banner strong{font-size:14px;line-height:1.35}.shipping-banner span{margin-top:2px;color:#627668;font-size:12px;line-height:1.4}.cta .shipping-footer{display:flex;align-items:center;gap:9px;margin:14px 0 0;color:#425e4b;font-size:12px;line-height:1.4}.shipping-footer svg{width:33px;height:26px}@media(max-width:600px){.shipping-wrap{margin-top:14px}.shipping-banner{gap:10px;padding:10px 12px}.shipping-banner svg{width:36px;height:30px}.shipping-banner strong{font-size:13px}.shipping-banner span{font-size:11px}}
