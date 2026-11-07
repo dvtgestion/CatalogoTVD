@@ -83,3 +83,11 @@
 
 /* Envíos alineados entre el mensaje y el contacto. */
 @media(min-width:901px){.foot-shipping{margin-left:auto}.foot a{margin-left:auto}}
+
+/* Mayor visibilidad para los envíos en el pie de página. */
+.foot .foot-shipping img{width:145px;height:74px}
+.foot-shipping strong{font-size:15px}
+.foot-shipping small{font-size:12px}
+@media(max-width:900px) and (min-width:601px){.foot .foot-shipping img{width:115px;height:62px}}
+@media(max-width:600px){.foot .foot-shipping img{width:120px;height:62px}.foot-shipping strong{font-size:14px}.foot-shipping small{font-size:11px}}
+@media(max-width:1100px){.foot{flex-wrap:wrap}}
