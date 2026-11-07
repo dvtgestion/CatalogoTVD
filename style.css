@@ -58,3 +58,14 @@
 .category-soportes-bujes .category-illustration{height:90px}
 .category-soportes-bujes .category-illustration svg{width:108px;height:90px;max-width:100%}
 @media(max-width:600px){.category.category-soportes-bujes .category-illustration{height:85px}.category-soportes-bujes .category-illustration svg{width:102px;height:85px}}
+
+/* Navegación visible y aviso de compatibilidad. */
+.detail-back{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 16px;border:1px solid #b9cabe;border-radius:5px;background:#f0f5ee;color:#203c2a;font-size:14px;font-weight:800;line-height:1.35;text-align:center}
+.detail-back:hover{background:#e2efd9;border-color:#83a46c}
+.detail-back:focus-visible{outline:3px solid #086fee;outline-offset:3px}
+.detail-applications>.fit-years-notice{padding:11px 13px;border-left:3px solid #8ab52f;border-radius:3px;background:#f3f8eb;color:#3d5634;font-size:12px;line-height:1.5}
+
+/* Botón visible para cerrar la imagen ampliada. */
+.lightbox-close{min-height:44px;min-width:76px;padding:10px 14px;background:#b52e2a;color:#fff;font-size:13px;font-weight:800}
+.lightbox-close:hover{background:#8e201d}
+.lightbox-close:focus-visible{outline:3px solid #086fee;outline-offset:2px}
