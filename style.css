@@ -53,3 +53,8 @@
   .product>p{grid-row:4;align-self:start;overflow-wrap:anywhere}
   .product>.add{grid-row:5;align-self:end;margin-top:0}
 }
+
+/* Mayor ilustración para las dos piezas de Soportes y bujes. */
+.category-soportes-bujes .category-illustration{height:90px}
+.category-soportes-bujes .category-illustration svg{width:108px;height:90px;max-width:100%}
+@media(max-width:600px){.category.category-soportes-bujes .category-illustration{height:85px}.category-soportes-bujes .category-illustration svg{width:102px;height:85px}}
