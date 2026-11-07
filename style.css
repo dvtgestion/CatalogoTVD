@@ -72,3 +72,6 @@
 
 /* Aviso discreto junto a los vehículos compatibles. */
 .detail-applications>.fit-years-notice{margin:4px 0 10px;padding:4px 0;border:0;background:transparent;color:#687a6d;font-size:11px;line-height:1.4}
+
+/* Aviso compacto sobre los años compatibles. */
+.detail-applications>.fit-years-notice{margin:5px 0 10px;padding:6px 9px;border-left:3px solid #e7a39f;border-radius:3px;background:#fff2f1;color:#783b38;font-size:11px;line-height:1.35}
