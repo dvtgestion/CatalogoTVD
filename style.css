@@ -80,3 +80,6 @@
 /* Envíos nacionales integrados al inicio y al pie. */
 .hero-shipping{display:flex;align-items:center;gap:10px;margin:-5px 0 14px}.hero-shipping img{width:98px;height:51px;object-fit:contain;flex:none}.hero-shipping strong,.hero-shipping small,.foot-shipping strong,.foot-shipping small{display:block}.hero-shipping strong{font-size:13px;line-height:1.3;color:#d4fb71}.hero-shipping small{margin-top:3px;color:#b9c4c0;font-size:11px}.foot-shipping{display:flex;align-items:center;gap:10px;min-width:0}.foot .foot-shipping img{width:100px;height:52px;object-fit:contain}.foot-shipping strong{color:#d4fb71;font-size:12px;line-height:1.3}.foot-shipping small{margin-top:3px;color:#aebcb4;font-size:10px}.foot a{white-space:nowrap}@media(max-width:900px) and (min-width:601px){.foot{gap:15px}.foot .foot-shipping img{width:75px}.foot-shipping small{max-width:120px}}@media(max-width:600px){.hero-shipping{gap:7px;margin:0 0 10px}.hero-shipping img{width:69px;height:36px}.hero-shipping strong{font-size:11px}.hero-shipping small{font-size:9px}.foot{gap:10px}.foot .foot-shipping img{width:90px;height:46px}}
 @media(max-width:900px){.foot{flex-wrap:wrap}}
+
+/* Envíos alineados entre el mensaje y el contacto. */
+@media(min-width:901px){.foot-shipping{margin-left:auto}.foot a{margin-left:auto}}
