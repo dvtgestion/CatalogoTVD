@@ -32,3 +32,13 @@
 .panel .category-option{min-height:34px;padding:5px 7px;gap:6px;font-size:11px;line-height:1.25}
 .panel .category-option input[type=checkbox]{width:16px;height:16px;min-width:16px;flex-basis:16px}
 @media(min-width:340px){.category-options{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Aplicaciones de distintas montadoras para un mismo repuesto. */
+.admin-wrap .application-help{margin:0 0 12px;color:#52675b;font-size:12px;line-height:1.5}
+.application-block{margin:0 0 12px;padding:14px;border:1px solid #dfe8e1;border-radius:6px;background:#fafcf9}
+.application-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#243b2c;font-size:13px}
+.application-heading .remove-application{min-height:36px;padding:7px 10px;border:1px solid #edc2bd;border-radius:4px;background:#fff2f0;color:#a32c24;font-size:11px;font-weight:700}
+.application-block label:last-child{margin-bottom:0}
+.application-actions{display:flex;flex-wrap:wrap;gap:9px}
+.application-actions button{min-height:44px}
+@media(max-width:480px){.application-block{padding:12px}.application-actions{flex-direction:column}.application-actions button{width:100%}}
