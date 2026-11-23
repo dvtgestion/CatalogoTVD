@@ -114,3 +114,6 @@
 
 /* Consulta directa por WhatsApp. */
 .detail-whatsapp{display:inline-flex;align-items:center;justify-content:center;min-height:48px;margin:10px 0 10px 8px;padding:12px 18px;border:0;border-radius:4px;background:#0866c6;color:#fff;font-size:14px;font-weight:700}.detail-whatsapp:hover{background:#07509a}.detail-whatsapp:disabled{opacity:.7;cursor:wait}.detail-whatsapp:focus-visible{outline:3px solid #086fee;outline-offset:3px}@media(max-width:600px){.detail-whatsapp{margin-left:0;margin-top:0;width:100%}.detail-add{width:100%}}
+
+/* Nombre y cantidad de la consulta visibles en teléfonos. */
+@media(max-width:600px){.top .brand{min-width:0;flex:0 1 127px}.top .brand img{max-width:100%;height:auto}#open-cart{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:44px;padding:8px 9px;white-space:nowrap;font-size:12px}#open-cart span{display:inline}#open-cart b{width:auto;min-width:22px;height:22px;margin-left:0;padding:0 5px;font-size:11px}}
